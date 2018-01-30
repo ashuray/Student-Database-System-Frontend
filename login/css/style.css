@@ -1,0 +1,55 @@
+
+body {
+    background:url('../images/bg.jpg');
+	text-align:center;
+}
+.main{
+    margin: 10% auto;
+   	background: rgba(125, 63, 152, 0.52);
+    width: 50%;
+	font-family: 'Lato', sans-serif;
+}
+.sub-head {
+    font-size: 38px;
+    padding: 40px;
+    color: white;
+    letter-spacing: 3px;
+    margin-bottom: 0px;
+}
+
+.sub-main input[type="text"],.sub-main input[type="password"]  {
+    font-size: 1.1em;
+    float: right;
+    margin: 5px 25px 15px 5px;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    width: 68%;
+    font-family: 'Lato', sans-serif;
+}
+.sub-main input[type="submit"] {
+    color: white;
+    background: #d52685;
+    border: none;
+    padding: 14px 50px;
+    font-size: 22px;
+    border-radius: 2px;
+    margin: 17px;
+	font-family: 'Lato', sans-serif;
+}
+.sub-main input[type="submit"]:hover {
+    background: #d9edf7;
+    color: black;
+	transition:0.5s all;
+}
+
+.side_label {
+    float: left;
+    font-size: 1.1em;
+    width: 10%;
+    margin: 5px 5px 15px 25px;
+    padding: 10px 20px;
+    color : white;
+    background: #673AB7;
+    font-family: 'Lato', sans-serif;
+}
