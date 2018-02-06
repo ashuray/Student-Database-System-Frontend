@@ -5,7 +5,7 @@ body {
 }
 
 .header{
-  height: 150px;
+  height: 15%;
       background: rgba(116, 81, 214, 0.52);
 }
 
@@ -21,9 +21,7 @@ body {
   display: inline-block;
 }
 .user-field{
-  width: 15%;
-  margin: 10px 10px 10px 10px;
-  display: inline-block;
+  float: right;
 }
 .SDS
 {
@@ -34,18 +32,41 @@ body {
   display: block;
   margin :5px 5px 5px 5px;
 }
-.login{
+.login a {
 
+    text-decoration: none;
   display: block;
   margin :10px 10px 10px 10px;
 }
 
-.signup{
-
+.signup a {
+  text-decoration: none;
   display: block;
   margin :10px 10px 10px 10px;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(116, 81, 214);
+}
 
 h1{
   margin-top: 1px;
@@ -66,7 +87,7 @@ h5{
   background: #fff;
   border-radius: 2px;
   display: inline-block;
-  height: 250px;
+  height: 200px;
   margin: 1rem;
   position: relative;
   width: 300px;
