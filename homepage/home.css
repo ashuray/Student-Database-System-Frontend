@@ -1,8 +1,67 @@
 body {
+  margin:0px 0px 0px 0px;
   background: #e2e1e0;
-  text-align: center;
+  font-family: 'Lato', sans-serif;
 }
 
+.header{
+  height: 150px;
+      background: rgba(116, 81, 214, 0.52);
+}
+
+.logo
+{
+  width: 104px;
+  margin: 10px 10px 10px 10px;
+  float : left;
+}
+.text-field{
+  width: 70%;
+  margin: 10px 10px 10px 10px;
+  display: inline-block;
+}
+.user-field{
+  width: 15%;
+  margin: 10px 10px 10px 10px;
+  display: inline-block;
+}
+.SDS
+{
+  margin :2px 5px 5px 5px;
+}
+.NIT
+{
+  display: block;
+  margin :5px 5px 5px 5px;
+}
+.login{
+
+  display: block;
+  margin :10px 10px 10px 10px;
+}
+
+.signup{
+
+  display: block;
+  margin :10px 10px 10px 10px;
+}
+
+
+h1{
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+h3{
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+h5{
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+.main-body{
+  text-align: center;
+}
 .card {
   background: #fff;
   border-radius: 2px;
