@@ -1,14 +1,11 @@
-body {
-    background : black;
-    background:url('../images/bg.jpg');
-    text-align:center;
-}
+
 .main{
     margin: 2% auto;
     background: rgba(125, 63, 152, 0.52);
     width: 50%;
     height: 700px;
     font-family: 'Lato', sans-serif;
+    text-align:center;
 }
 .submito{
     width:80%;
@@ -32,16 +29,16 @@ body {
 .sub-main input[type="text"],.sub-main input[type="password"],.sub-main input[type="number"]  {
     font-size: 1.1em;
     float: right;
-    margin: 5px 25px 15px 5px;
+    margin: 5px 26px 14px 5px;
     color: black;
-    padding: 10px 20px;
+    padding: 10px 5px;
     border: none;
     width: 53%;
     font-family: 'Lato', sans-serif;
 }
 
 .sub-main input[type="submit"] {
-    color: white;
+  color: white;
     background: #d52685;
     border: none;
     padding: 10px 20px;
@@ -51,6 +48,7 @@ body {
     text-align : center;
    float:left;
     font-family: 'Lato', sans-serif;
+
 }
 .sub-main input[type="submit"]:hover {
     background: #d9edf7;
@@ -60,41 +58,27 @@ body {
 
 .side_label {
     border-radius: 10px;
-    float: left;
+    display: inline-block;
     font-size: 1.1em;
     width: 25%;
     margin: 5px 5px 15px 25px;
     padding: 10px 20px;
     color : white;
     background: #673AB7;
-    font-family: 'Lato', sans-serif;
-}
+    font-family: 'Lato', sans-serif;}
 
 .abc{
     border-radius: 10px;
     padding-right: 220px;
 }
 .dob,.drop,.cgpa{
-    font-size: 1.1em;
-    float: right;
+  font-size: 1.1em;
+    display: inline-block;
     margin: 5px 25px 15px 5px;
     color: black;
     padding: 10px 20px;
     border: none;
     width: 53%;
-    font-family: 'Lato', sans-serif;
-}
-
-
-.side_label2 {
-    border-radius: 10px;
-    float: left;
-    font-size: 1.1em;
-    width: 88%;
-    margin: 5px 5px 15px 25px;
-    padding: 10px 20px;
-    color : white;
-    background: #673AB7;
     font-family: 'Lato', sans-serif;
 }
 body {

@@ -1,13 +1,112 @@
-
 body {
-    background:url('../images/bg.jpg');
-	text-align:center;
+  margin:0px 0px 0px 0px;
+  background: #e2e1e0;
+  font-family: 'Lato', sans-serif;
+}
+
+.header{
+  height: 15%;
+      background: rgba(116, 81, 214, 0.52);
+}
+
+.logo
+{
+  width: 104px;
+  margin: 10px 10px 10px 10px;
+  float : left;
+}
+.text-field{
+  width: 70%;
+  margin: 10px 10px 10px 10px;
+  display: inline-block;
+}
+.user-field{
+  float: right;
+}
+.SDS
+{
+  margin :2px 5px 5px 5px;
+}
+.NIT
+{
+  display: block;
+  margin :5px 5px 5px 5px;
+}
+.login a {
+
+    text-decoration: none;
+  display: block;
+  margin :10px 10px 10px 10px;
+}
+
+.signup a {
+  text-decoration: none;
+  display: block;
+  margin :10px 10px 10px 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(116, 81, 214);
+}
+
+h1{
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+h3{
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+h5{
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+.main-body{
+  text-align: center;
+}
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 200px;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+}
+
+.card-1 {
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .main{
     margin: 10% auto;
-   	background: rgba(125, 63, 152, 0.52);
+   	background: rgba(125, 63, 152, 0.65);
     width: 50%;
 	font-family: 'Lato', sans-serif;
+	text-align: center;
 }
 .sub-head {
     font-size: 38px;
